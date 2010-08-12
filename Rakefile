@@ -10,7 +10,7 @@ begin
     gem.email       = "nunemaker@gmail.com"
     gem.homepage    = "http://httparty.rubyforge.org"
     gem.authors     = ["John Nunemaker", "Sandro Turriate"]
-    gem.version     = HTTParty::VERSION
+    gem.version     = HTTParty::VERSION + ".hmac"
 
     gem.add_dependency 'crack', HTTParty::CRACK_DEPENDENCY
 
